@@ -5,14 +5,20 @@
 
 // Output:
 // Print the result.
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+
+// Sample Input:
+// 1000
+// 700
+
+// Sample Output:
+// 300
+
+var myMoney = 1000;
+var appleOnekg = 350;
+var orangeOnekg = 350;
+
+var fruits = appleOnekg + orangeOnekg;
+var returnMoney = myMoney - fruits;
+
+console.log(fruits);
+console.log(returnMoney);
