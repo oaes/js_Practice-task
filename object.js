@@ -14,5 +14,5 @@ myPhone.ram = "8gb";
 myPhone.androidVersion = "14oSe";
 myPhone.features = ["easy to use", "gifted"];
 myPhone.service = false;
-
+delete myPhone.service;
 console.log(myPhone);
