@@ -31,5 +31,18 @@ const family = {
   },
 };
 
-console.log(family.address.post?.road?.passageNo);
-console.log(family["father"]);
+// for---in loop for object
+for (key in family) {
+  // console.log(key, "working");
+}
+
+// console.log(family.address.post?.road?.passageNo);
+// console.log(family["father"]);
+
+// for---of loop for array
+
+const myFamily = ["mother", "father", "sister", "wife"];
+for (key of myFamily) {
+  console.log(key);
+}
+console.log(myFamily);
